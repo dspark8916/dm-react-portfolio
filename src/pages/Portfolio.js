@@ -1,8 +1,15 @@
 import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Img1 from "../assets/DailyPlanner.png";
+import Img2 from "../assets/dash2.png" ;
+import Img3 from "../assets/Homework_CodeRefractor_index.html.png";
+import Img4 from "../assets/PasswordGenerator2.jpg.png";
+import Img5 from "../assets/StartingPage.png";
+import Img6 from "../assets/StartofGame.png";
 
 function Portfolio() {
   return (
@@ -17,19 +24,79 @@ function Portfolio() {
         </Row> */}
         <Row>
           <Col size="md-12">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-              consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-              sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-              gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-              turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-              tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-              volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-              mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-              tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-            </p>
+            <Carousel>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img1}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img2}
+                  alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img3}
+                  alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img4}
+                  alt="Fourth slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Fourth slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img5}
+                  alt="Fifth slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Fifth slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src={Img6}
+                  alt="Sixth slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Sixth slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
           </Col>
         </Row>
       </Container>
