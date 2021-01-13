@@ -9,7 +9,7 @@ function Navbar() {
       <Link className="navbar-brand" to="/">
         Dimitar M
       </Link>
-      <div>
+      <div className="ml-auto">
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link

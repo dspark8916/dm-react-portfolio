@@ -10,11 +10,6 @@ function Contact() {
       <Hero backgroundImage="https://imagery.zoogletools.com/u/126390/55bd88347ecfe72adffa60e6165a61f5c1065428/large/contact-me-png.png">
       </Hero>
       <Container style={{ marginTop: 30 }}>
-        {/* <Row>
-          <Col size="md-12">
-            <h1>Welcome To My Portfolio!</h1>
-          </Col>
-        </Row> */}
         <Row>
           <Col size="md-12">
             <p>
