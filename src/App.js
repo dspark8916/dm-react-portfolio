@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 
-// testing
+// testing to deploy to gh pages
 
 function App() {
   return (
