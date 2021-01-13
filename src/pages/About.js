@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://yoors-media-uploads-adsfairbv.netdna-ssl.com/66221/blog/about-me-1497034723.jpg">
+      <Hero backgroundImage="https://imagery.zoogletools.com/u/126390/0eeeeaf1bf3547e5a826a774528de8d9c27d2f3c/large/about-png.png">
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
