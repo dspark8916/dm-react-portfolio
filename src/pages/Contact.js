@@ -7,7 +7,7 @@ import Col from "../components/Col";
 function Contact() {
   return (
     <div>
-      <Hero backgroundImage="https://thumbs.dreamstime.com/b/grunge-black-portfolio-word-square-rubber-seal-stamp-white-background-171945189.jpg">
+      <Hero backgroundImage="http://toddmatthismassage.com/templates/rt_requiem/custom/images/contact-me-big.png">
       </Hero>
       <Container style={{ marginTop: 30 }}>
         {/* <Row>
