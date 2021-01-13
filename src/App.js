@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 
+// testing
+
 function App() {
   return (
     <Router basename="/dm-react-portfolio">
