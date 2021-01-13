@@ -8,7 +8,6 @@ function Contact() {
   return (
     <div>
       <Hero backgroundImage="https://thumbs.dreamstime.com/b/grunge-black-portfolio-word-square-rubber-seal-stamp-white-background-171945189.jpg">
-        <h1>About Me!!</h1>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         {/* <Row>
