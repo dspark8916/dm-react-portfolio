@@ -4,6 +4,8 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Wrapper from "../components/Wrapper";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   return (
@@ -14,7 +16,25 @@ function Contact() {
         <Row>
           <Col size="md-12">
           <Wrapper>
-      <div>
+          <Form>
+          <Form.Group controlId="formBasicName">
+    <Form.Label>Name</Form.Label>
+    <Form.Control type="name" placeholder="Enter name" />
+  </Form.Group>
+  <Form.Group controlId="formBasicEmail">
+    <Form.Label>Email address</Form.Label>
+    <Form.Control type="email" placeholder="Enter email" />
+  </Form.Group>
+
+  <Form.Group controlId="formBasicMessage">
+    <Form.Label>Message</Form.Label>
+    <Form.Control type="message" placeholder="Enter message" />
+  </Form.Group>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
+</Form>
+      {/* <div>
         <form>
           <div className="=page-header">
             <h1>Contact Info</h1>
@@ -36,7 +56,7 @@ function Contact() {
             <button type="submit" class="btn btn-success mb-2">Submit</button>
           </div>
         </form>
-      </div>
+      </div> */}
     </Wrapper>
           </Col>
         </Row>
