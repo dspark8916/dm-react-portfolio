@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dm-react-portfolio/static/css/main.ab306216.chunk.css",
-    "main.js": "/dm-react-portfolio/static/js/main.b2bb2e80.chunk.js",
-    "main.js.map": "/dm-react-portfolio/static/js/main.b2bb2e80.chunk.js.map",
+    "main.css": "/dm-react-portfolio/static/css/main.77a1e7cd.chunk.css",
+    "main.js": "/dm-react-portfolio/static/js/main.1d414e80.chunk.js",
+    "main.js.map": "/dm-react-portfolio/static/js/main.1d414e80.chunk.js.map",
     "runtime-main.js": "/dm-react-portfolio/static/js/runtime-main.5180e64b.js",
     "runtime-main.js.map": "/dm-react-portfolio/static/js/runtime-main.5180e64b.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/dm-react-portfolio/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.2d8dccf1.chunk.js": "/dm-react-portfolio/static/js/2.2d8dccf1.chunk.js",
-    "static/js/2.2d8dccf1.chunk.js.map": "/dm-react-portfolio/static/js/2.2d8dccf1.chunk.js.map",
+    "static/js/2.6d95693a.chunk.js": "/dm-react-portfolio/static/js/2.6d95693a.chunk.js",
+    "static/js/2.6d95693a.chunk.js.map": "/dm-react-portfolio/static/js/2.6d95693a.chunk.js.map",
     "index.html": "/dm-react-portfolio/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/dm-react-portfolio/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.ab306216.chunk.css.map": "/dm-react-portfolio/static/css/main.ab306216.chunk.css.map",
-    "static/js/2.2d8dccf1.chunk.js.LICENSE.txt": "/dm-react-portfolio/static/js/2.2d8dccf1.chunk.js.LICENSE.txt",
+    "static/css/main.77a1e7cd.chunk.css.map": "/dm-react-portfolio/static/css/main.77a1e7cd.chunk.css.map",
+    "static/js/2.6d95693a.chunk.js.LICENSE.txt": "/dm-react-portfolio/static/js/2.6d95693a.chunk.js.LICENSE.txt",
     "static/media/DailyPlanner.f88c4b6f.png": "/dm-react-portfolio/static/media/DailyPlanner.f88c4b6f.png",
     "static/media/Homework_CodeRefractor_index.html.e839ac8b.png": "/dm-react-portfolio/static/media/Homework_CodeRefractor_index.html.e839ac8b.png",
     "static/media/PasswordGenerator2.jpg.5b37d1dd.png": "/dm-react-portfolio/static/media/PasswordGenerator2.jpg.5b37d1dd.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.5180e64b.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.2d8dccf1.chunk.js",
-    "static/css/main.ab306216.chunk.css",
-    "static/js/main.b2bb2e80.chunk.js"
+    "static/js/2.6d95693a.chunk.js",
+    "static/css/main.77a1e7cd.chunk.css",
+    "static/js/main.1d414e80.chunk.js"
   ]
 }
