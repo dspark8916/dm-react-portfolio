@@ -6,7 +6,7 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
           <h1 className="display-4">About Me</h1>
           <p className="lead">Here's a little bit about myself and how I got here!!</p>

@@ -14,7 +14,7 @@ import '../components/FlipCard/style.css';
 function Portfolio() {
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
           <h1 className="display-4">My Projects</h1>
           <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
@@ -36,7 +36,7 @@ function Portfolio() {
               <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Work Day Scheduler</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />
@@ -53,7 +53,7 @@ function Portfolio() {
               <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Weather Dashboard</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />
@@ -69,7 +69,7 @@ function Portfolio() {
               <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Code Refactor</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />
@@ -85,7 +85,7 @@ function Portfolio() {
               <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Password Generator</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />
@@ -100,7 +100,7 @@ function Portfolio() {
               <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Spice It Up!!</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />
@@ -115,7 +115,7 @@ function Portfolio() {
               <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px" }} />
               <h5>Timed Quiz</h5>
             </div>
-            <div className="flip-card-back">
+            <div className="flip-card-back bg-dark text-white">
               <br />
               <br />
               <br />

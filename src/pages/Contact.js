@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -9,7 +10,7 @@ import Button from "react-bootstrap/Button";
 function Contact() {
   return (
     <div>
-      <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
           <h1 className="display-4">Contact Me</h1>
           <p className="lead">Please fill out the form below with your information if you'd like to connect and collaborate!!</p>
@@ -18,7 +19,7 @@ function Contact() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-6">
-          <div className="card" style={{padding: "50px 50px 0px 50px"}}>
+          <Card className="bg-dark text-white" style={{padding: "50px 50px 0px 50px"}}>
             <Wrapper>
               <Form>
                 <Form.Group controlId="formBasicName">
@@ -39,7 +40,7 @@ function Contact() {
                 </Button>
               </Form>
             </Wrapper>
-            </div>
+            </Card>
           </Col>
         </Row>
       </Container>
