@@ -16,15 +16,11 @@ function Contact() {
         </div>
       </div>
       <Container style={{ marginTop: 30 }}>
-        <div className="card" style={{padding: "50px 50px 0px 50px"}}>
         <Row>
-          <Col size="md-12">
+          <Col size="md-6">
+          <div className="card" style={{padding: "50px 50px 0px 50px"}}>
             <Wrapper>
               <Form>
-                {/* <div className="=page-header">
-                  <h1>Contact Info</h1>
-                </div> */}
-                <br />
                 <Form.Group controlId="formBasicName">
                   <Form.Label>Name</Form.Label>
                   <Form.Control type="name" placeholder="Enter name" />
@@ -43,9 +39,9 @@ function Contact() {
                 </Button>
               </Form>
             </Wrapper>
+            </div>
           </Col>
         </Row>
-        </div>
       </Container>
     </div>
   );

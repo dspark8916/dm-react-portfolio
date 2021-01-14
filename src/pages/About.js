@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -7,8 +6,12 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://imagery.zoogletools.com/u/126390/0eeeeaf1bf3547e5a826a774528de8d9c27d2f3c/large/about-png.png">
-      </Hero>
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <h1 className="display-4">About Me</h1>
+          <p className="lead">Here's a little bit about myself and how I got here!!</p>
+        </div>
+      </div>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
