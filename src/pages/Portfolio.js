@@ -17,7 +17,7 @@ function Portfolio() {
     <div>
       <div className="jumbotron jumbotron-fluid">
   <div className="container">
-    <h1 className="display-4">My Portfolio</h1>
+    <h1 className="display-4">My Projects</h1>
     <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
   </div>
 </div>
@@ -35,11 +35,15 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Work Day Scheduler</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect and Engineer</p>
-                <p>We love that guy</p>
+              <br/>
+                <br/>
+                <br/>
+                <h1>Work Day Scheduler</h1>
+                <br/>
+                <p>Easy to use planner allowing the user to map out their work day in order to increase productivity!!</p>
               </div>
             </div>
           </div>
@@ -48,11 +52,14 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Weather Dashboard</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
+              <br/>
+                <br/>
+                <br/>
+                <h1>Weather Dashboard</h1>
                 <p>Architect and Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
@@ -61,11 +68,14 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Code Refactor</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
+              <br/>
+                <br/>
+                <br/>
+                <h1>Code Refactor</h1>
                 <p>Architect and Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
@@ -74,11 +84,14 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Password Generator</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
+              <br/>
+                <br/>
+                <br/>
+                <h1>Password Generator</h1>
                 <p>Architect and Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
@@ -86,11 +99,14 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Spice It Up!!</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
+              <br/>
+                <br/>
+                <br/>
+                <h1>Spice It Up!!</h1>
                 <p>Architect and Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
@@ -98,11 +114,14 @@ function Portfolio() {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+                <h5>Timed Quiz</h5>
               </div>
               <div className="flip-card-back">
-                <h1>John Doe</h1>
+                <br/>
+                <br/>
+                <br/>
+                <h1>Timed Quiz</h1>
                 <p>Architect and Engineer</p>
-                <p>We love that guy</p>
               </div>
             </div>
           </div>
