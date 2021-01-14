@@ -17,6 +17,10 @@ function Contact() {
           <Col size="md-12">
           <Wrapper>
           <Form>
+          <div className="=page-header">
+            <h1>Contact Info</h1>
+          </div>
+          <br/>
           <Form.Group controlId="formBasicName">
     <Form.Label>Name</Form.Label>
     <Form.Control type="name" placeholder="Enter name" />
@@ -26,9 +30,9 @@ function Contact() {
     <Form.Control type="email" placeholder="Enter email" />
   </Form.Group>
 
-  <Form.Group controlId="formBasicMessage">
+  <Form.Group controlId="ControlTextarea1">
     <Form.Label>Message</Form.Label>
-    <Form.Control type="message" placeholder="Enter message" />
+    <Form.Control placeholder="Enter message" as="textarea" rows={3} />
   </Form.Group>
   <Button variant="primary" type="submit">
     Submit
