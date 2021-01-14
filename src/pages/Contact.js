@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -10,16 +9,21 @@ import Button from "react-bootstrap/Button";
 function Contact() {
   return (
     <div>
-      <Hero backgroundImage="https://imagery.zoogletools.com/u/126390/55bd88347ecfe72adffa60e6165a61f5c1065428/large/contact-me-png.png">
-      </Hero>
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <h1 className="display-4">Contact Me</h1>
+          <p className="lead">Please fill out the form below with your information if you'd like to connect and collaborate!!</p>
+        </div>
+      </div>
       <Container style={{ marginTop: 30 }}>
+        <div className="card" style={{padding: "50px 50px 0px 50px"}}>
         <Row>
           <Col size="md-12">
             <Wrapper>
               <Form>
-                <div className="=page-header">
+                {/* <div className="=page-header">
                   <h1>Contact Info</h1>
-                </div>
+                </div> */}
                 <br />
                 <Form.Group controlId="formBasicName">
                   <Form.Label>Name</Form.Label>
@@ -41,6 +45,7 @@ function Contact() {
             </Wrapper>
           </Col>
         </Row>
+        </div>
       </Container>
     </div>
   );

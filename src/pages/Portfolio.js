@@ -16,117 +16,117 @@ function Portfolio() {
   return (
     <div>
       <div className="jumbotron jumbotron-fluid">
-  <div className="container">
-    <h1 className="display-4">My Projects</h1>
-    <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
-  </div>
-</div>
+        <div className="container">
+          <h1 className="display-4">My Projects</h1>
+          <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
+        </div>
+      </div>
       {/* <Hero backgroundImage="https://thumbs.dreamstime.com/b/grunge-black-portfolio-word-square-rubber-seal-stamp-white-background-171945189.jpg">
       </Hero> */}
       {/* <Container style={{ marginTop: 30 }}> */}
-        {/* <Row>
+      {/* <Row>
           <Col size="md-12">
             <h1>Welcome To My Portfolio!</h1>
           </Col>
         </Row> */}
-        <Row>
-          {/* <Col size="md-12"> */}
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Work Day Scheduler</h5>
-              </div>
-              <div className="flip-card-back">
-              <br/>
-                <br/>
-                <br/>
-                <h1>Work Day Scheduler</h1>
-                <br/>
-                <p>Easy to use planner allowing the user to map out their work day in order to increase productivity!!</p>
-              </div>
+      <Row>
+        {/* <Col size="md-12"> */}
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Work Day Scheduler</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Work Day Scheduler</h1>
+              <br />
+              <p>Easy to use planner allowing the user to map out their work day in order to increase productivity!!</p>
             </div>
           </div>
-          
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Weather Dashboard</h5>
-              </div>
-              <div className="flip-card-back">
-              <br/>
-                <br/>
-                <br/>
-                <h1>Weather Dashboard</h1>
-                <p>Architect and Engineer</p>
-              </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Weather Dashboard</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Weather Dashboard</h1>
+              <p>Architect and Engineer</p>
             </div>
           </div>
-          
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Code Refactor</h5>
-              </div>
-              <div className="flip-card-back">
-              <br/>
-                <br/>
-                <br/>
-                <h1>Code Refactor</h1>
-                <p>Architect and Engineer</p>
-              </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Code Refactor</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Code Refactor</h1>
+              <p>Architect and Engineer</p>
             </div>
           </div>
-          
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Password Generator</h5>
-              </div>
-              <div className="flip-card-back">
-              <br/>
-                <br/>
-                <br/>
-                <h1>Password Generator</h1>
-                <p>Architect and Engineer</p>
-              </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Password Generator</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Password Generator</h1>
+              <p>Architect and Engineer</p>
             </div>
           </div>
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Spice It Up!!</h5>
-              </div>
-              <div className="flip-card-back">
-              <br/>
-                <br/>
-                <br/>
-                <h1>Spice It Up!!</h1>
-                <p>Architect and Engineer</p>
-              </div>
+        </div>
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Spice It Up!!</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Spice It Up!!</h1>
+              <p>Architect and Engineer</p>
             </div>
           </div>
-          <div class="flip-card">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-                <h5>Timed Quiz</h5>
-              </div>
-              <div className="flip-card-back">
-                <br/>
-                <br/>
-                <br/>
-                <h1>Timed Quiz</h1>
-                <p>Architect and Engineer</p>
-              </div>
+        </div>
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px" }} />
+              <h5>Timed Quiz</h5>
+            </div>
+            <div className="flip-card-back">
+              <br />
+              <br />
+              <br />
+              <h1>Timed Quiz</h1>
+              <p>Architect and Engineer</p>
             </div>
           </div>
-          {/* </Col> */}
-        </Row>
+        </div>
+        {/* </Col> */}
+      </Row>
       {/* </Container> */}
     </div>
   );
