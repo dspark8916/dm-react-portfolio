@@ -1,6 +1,6 @@
 import React from "react";
 // import Carousel from "react-bootstrap/Carousel";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 // import Container from "../components/Container";
 import Row from "../components/Row";
 // import Col from "../components/Col";
@@ -15,8 +15,14 @@ import '../components/FlipCard/style.css';
 function Portfolio() {
   return (
     <div>
-      <Hero backgroundImage="https://thumbs.dreamstime.com/b/grunge-black-portfolio-word-square-rubber-seal-stamp-white-background-171945189.jpg">
-      </Hero>
+      <div className="jumbotron jumbotron-fluid">
+  <div className="container">
+    <h1 className="display-4">My Portfolio</h1>
+    <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
+  </div>
+</div>
+      {/* <Hero backgroundImage="https://thumbs.dreamstime.com/b/grunge-black-portfolio-word-square-rubber-seal-stamp-white-background-171945189.jpg">
+      </Hero> */}
       {/* <Container style={{ marginTop: 30 }}> */}
         {/* <Row>
           <Col size="md-12">
