@@ -36,6 +36,10 @@ function Portfolio() {
               <h1>Work Day Scheduler</h1>
               <br />
               <p>Easy to use planner allowing the user to map out their work day in order to increase productivity!!</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Daily-Planner">Click here</a>
             </div>
           </div>
         </div>
@@ -52,6 +56,10 @@ function Portfolio() {
               <br />
               <h1>Weather Dashboard</h1>
               <p>Type in your city in the search box and get the current weather, a 5-day forecast, the UV index, and windspeed.</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Weather-Dashboard">Click here</a>
             </div>
           </div>
         </div>
@@ -88,6 +96,10 @@ function Portfolio() {
               <br />
               <h1>Password Generator</h1>
               <p>Having trouble figuring out a password?? You're in luck!! With my random password generator you won't have to worry about coming up with a password anymore!! </p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Password-Generator">Click here</a>
             </div>
           </div>
         </div>
@@ -103,6 +115,10 @@ function Portfolio() {
               <br />
               <h1>Spice It Up!!</h1>
               <p>Bored?? Having trouble coming up with something to do?? Check out the Spice It Up app where we randomly generate a activity for you to do based on the category you select!!</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Project1Group2">Click here</a>
             </div>
           </div>
         </div>
@@ -118,6 +134,10 @@ function Portfolio() {
               <br />
               <h1>Timed Quiz</h1>
               <p>Looking for a quick challenge?? With my timed quiz you get 60 seconds to answer 5 questions and see how you rank on the scoreboard.</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Guessing-Game">Click here</a>
             </div>
           </div>
         </div>
