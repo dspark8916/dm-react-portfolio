@@ -9,6 +9,12 @@ import Img3 from "../assets/Homework_CodeRefractor_index.html.png";
 import Img4 from "../assets/PasswordGenerator2.jpg.png";
 import Img5 from "../assets/StartingPage.png";
 import Img6 from "../assets/StartofGame.png";
+import Img7 from "../assets/FrontPage.png";
+import Img8 from "../assets/VacationBudget.png";
+import Img9 from "../assets/FinalOutput.png";
+import Img10 from "../assets/AddExercise.png";
+import Img11 from "../assets/InitialPage.png";
+import Img12 from "../assets/FirstPrompt.png";
 import '../components/FlipCard/style.css';
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -26,6 +32,133 @@ function Portfolio() {
       </div>
       <Row>
         {/* <Col size="md-12"> */}
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img7} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Burger App</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Burger App</h1>
+              <br />
+              <p>Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger waiting to be devoured.</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Burger"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img8} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Progressive Budget</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Progressive Budget</h1>
+              <br />
+              <p>A fast and easy way to track your money and access your information at any time. This app will allow you to add expenses and deposits to your budget with or without an internet connection and make sure your balance is accurate. </p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/ProgressiveBudget"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img9} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Team Profile Generator</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Team Profile Generator</h1>
+              <br />
+              <p>This app allows managers to generate a webpage displaying their team's basic info and allowing team quick access to their emails and GitHub profiles.</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/TeamProfileGenerator"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img10} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Fitness Tracker</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Fitness Tracker</h1>
+              <br />
+              <p>Easy to use to view, create, and track daily workouts. You can log mulitple exercises and can track them by name, type, weight, sets, reps, and duration of the exercise. Upon loading the page you will have the option to create new workout or continue with your last one. Keeping track of your workouts is sure to make life easier for you!!</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/FitnessTracker"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img11} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Note Taker</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Note Taker</h1>
+              <br />
+              <p>Having trouble remembering things and keeping track of information?? This app is perfect for you!! You can take persistent notes and have access to that information whenever you need it!!</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/NoteTaker"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front bg-dark text-white">
+              <Image src={Img12} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
+              <h5 style={{ marginTop: "15px" }}>Employee Management System</h5>
+            </div>
+            <div className="flip-card-back bg-dark text-white">
+              <br />
+              <br />
+              <br />
+              <h1>Employee Management System</h1>
+              <br />
+              <p>This app is for business owners and managers who want to be able to view and manage their departments, roles, and employees in their company so that they can organize and plan their business better!!</p>
+              <br/>
+              <br/>
+              <br/>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/EMS"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
+            </div>
+          </div>
+        </div>
+
         <div class="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front bg-dark text-white">
