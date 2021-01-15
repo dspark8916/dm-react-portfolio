@@ -34,7 +34,7 @@ function About() {
                 </p>
                 <p>Check out my <a href="https://github.com/dspark8916">GitHub</a> and track my progress!!</p>
                 <div className="container text-center">
-                <Image src="https://www.vippng.com/png/detail/109-1091109_developer-cartoon-programmer.png"/>
+                <Image src="https://www.vippng.com/png/detail/109-1091109_developer-cartoon-programmer.png" fluid/>
                 </div>
           </Col>
         </Row>
