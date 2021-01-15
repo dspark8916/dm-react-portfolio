@@ -11,13 +11,15 @@ import Img5 from "../assets/StartingPage.png";
 import Img6 from "../assets/StartofGame.png";
 import '../components/FlipCard/style.css';
 import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
 
 function Portfolio() {
   return (
     <div>
       <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
-          <h1 className="display-4">My Projects</h1>
+          <h1 className="display-4">My Projects <FontAwesomeIcon icon={faFolderOpen}/></h1>
           <p className="lead">Below you will see the projects I have worked on with links on the back of each card to their github repo.</p>
         </div>
       </div>

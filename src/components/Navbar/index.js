@@ -1,13 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { faLaptopCode} from "@fortawesome/free-solid-svg-icons";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        Dimitar M
+        Dimitar M <FontAwesomeIcon icon={faLaptopCode}/>
       </Link>
       <div className="ml-auto">
         <ul className="navbar-nav">

@@ -4,13 +4,15 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
     <div>
       <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
-          <h1 className="display-4">About Me</h1>
+          <h1 className="display-4">About Me <FontAwesomeIcon icon={faUserSecret}/></h1>
           <p className="lead">Here's a little bit about myself and how I got here!!</p>
         </div>
       </div>

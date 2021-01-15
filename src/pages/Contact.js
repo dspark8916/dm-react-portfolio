@@ -6,13 +6,15 @@ import Col from "../components/Col";
 import Wrapper from "../components/Wrapper";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
     <div>
       <div className="jumbotron jumbotron-fluid bg-dark text-white">
         <div className="container">
-          <h1 className="display-4">Contact Me</h1>
+          <h1 className="display-4">Contact Me <FontAwesomeIcon icon={faAddressBook}/></h1>
           <p className="lead">Please fill out the form below with your information if you'd like to connect and collaborate!!</p>
         </div>
       </div>
