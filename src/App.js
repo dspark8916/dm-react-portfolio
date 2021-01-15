@@ -11,7 +11,7 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
     <Router basename="/dm-react-portfolio">
-      <div>
+      <div style={{backgroundImage: `url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg")`}}>
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={About} />
