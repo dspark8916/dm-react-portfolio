@@ -32,9 +32,9 @@ function Portfolio() {
         {/* <Col size="md-12"> */}
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Work Day Scheduler</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img1} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Work Day Scheduler</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -49,9 +49,9 @@ function Portfolio() {
 
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Weather Dashboard</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img2} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Weather Dashboard</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -65,9 +65,9 @@ function Portfolio() {
 
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Code Refactor</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img3} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Code Refactor</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -81,9 +81,9 @@ function Portfolio() {
 
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Password Generator</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img4} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Password Generator</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -96,9 +96,9 @@ function Portfolio() {
         </div>
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Spice It Up!!</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img5} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Spice It Up!!</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -111,9 +111,9 @@ function Portfolio() {
         </div>
         <div class="flip-card">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
-              <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px" }} />
-              <h5>Timed Quiz</h5>
+            <div className="flip-card-front bg-dark text-white">
+              <img src={Img6} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} />
+              <h5 style={{ marginTop: "15px" }}>Timed Quiz</h5>
             </div>
             <div className="flip-card-back bg-dark text-white">
               <br />
@@ -132,77 +132,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
-{/* <Carousel>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img1}
-                  alt="First slide"
-                />
-                <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img2}
-                  alt="Second slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img3}
-                  alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img4}
-                  alt="Fourth slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Fourth slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img5}
-                  alt="Fifth slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Fifth slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={Img6}
-                  alt="Sixth slide"
-                />
-
-                <Carousel.Caption>
-                  <h3>Sixth slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel> */}
