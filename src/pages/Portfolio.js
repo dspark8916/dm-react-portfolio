@@ -13,6 +13,7 @@ import '../components/FlipCard/style.css';
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolderOpen } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Portfolio() {
   return (
@@ -41,7 +42,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Daily-Planner">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Daily-Planner"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
@@ -61,7 +62,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Weather-Dashboard">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Weather-Dashboard"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
@@ -81,7 +82,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/CodeRefractor">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/CodeRefractor"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
@@ -101,7 +102,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Password-Generator">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Password-Generator"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
@@ -120,7 +121,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Project1Group2">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Project1Group2"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
@@ -139,7 +140,7 @@ function Portfolio() {
               <br/>
               <br/>
               <br/>
-              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Guessing-Game">Click here</a>
+              <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Guessing-Game"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
         </div>
