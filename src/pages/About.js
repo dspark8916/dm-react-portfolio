@@ -26,7 +26,7 @@ function About() {
         <Row>
           <Col size="md-12">
           <p>
-                  My name is Dimitar Micevski and I'm currently working on completing a Full Stack Coding Bootcamp 
+                  My name is <span style={{fontSize: "25px" }}>Dimitar Micevski</span> and I'm currently working on completing a Full Stack Coding Bootcamp 
                   through Rutgers Univeristy. Rutgers University also happens to be the institution from which I received my Bachelor's 
                   Degree in 2011. I graduated with a BS in Exercise Science along with a Minor in economics. Upon graduation I started a 
                   career in banking in which I gained valuable skills and knowledge. You might ask how and why make the move to tech? Tech 
@@ -34,7 +34,7 @@ function About() {
                   As they say, "Better Late Than Never!!". So here I am now!! By taking this Bootcamp I hope that I could use the skills and 
                   knowledge that I have acquired to get my foot in the door of the world of technology!! Stay tuned!!!
                 </p>
-                <p>Check out my <a href="https://github.com/dspark8916">GitHub</a> and track my progress!!</p>
+                <p>Check out my <a href="https://github.com/dspark8916" style={{fontSize: "25px"}}>GitHub</a> and track my progress!!</p>
                 <div className="container text-center">
                 <Image src="https://www.vippng.com/png/detail/109-1091109_developer-cartoon-programmer.png" fluid/>
                 </div>
