@@ -2,6 +2,8 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Card from "react-bootstrap/Card";
+import Image from "react-bootstrap/Image";
 
 function About() {
   return (
@@ -13,6 +15,7 @@ function About() {
         </div>
       </div>
       <Container style={{ marginTop: 30 }}>
+      <Card className="bg-dark text-white" style={{padding: "50px 50px 50px 50px"}}>
         <Row>
           <Col size="md-12">
             <h1>Welcome To My Portfolio!</h1>
@@ -30,8 +33,12 @@ function About() {
                   knowledge that I have acquired to get my foot in the door of the world of technology!! Stay tuned!!!
                 </p>
                 <p>Check out my <a href="https://github.com/dspark8916">GitHub</a> and track my progress!!</p>
+                <div className="container text-center">
+                <Image src="https://www.vippng.com/png/detail/109-1091109_developer-cartoon-programmer.png"/>
+                </div>
           </Col>
         </Row>
+        </Card>
       </Container>
     </div>
   );
