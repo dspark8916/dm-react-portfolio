@@ -5,16 +5,16 @@ import Row from "../components/Row";
 // import Col from "../components/Col";
 import Img1 from "../assets/DailyPlanner.png";
 import Img2 from "../assets/dash2.png";
-import Img3 from "../assets/Homework_CodeRefractor_index.html.png";
+// import Img3 from "../assets/Homework_CodeRefractor_index.html.png";
 import Img4 from "../assets/PasswordGenerator2.jpg.png";
 import Img5 from "../assets/StartingPage.png";
-import Img6 from "../assets/StartofGame.png";
+// import Img6 from "../assets/StartofGame.png";
 import Img7 from "../assets/FrontPage.png";
 import Img8 from "../assets/VacationBudget.png";
 import Img9 from "../assets/FinalOutput.png";
 import Img10 from "../assets/AddExercise.png";
 import Img11 from "../assets/InitialPage.png";
-import Img12 from "../assets/FirstPrompt.png";
+// import Img12 from "../assets/FirstPrompt.png";
 import '../components/FlipCard/style.css';
 import Image from "react-bootstrap/Image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -158,7 +158,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div class="flip-card">
+        {/* <div class="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front bg-dark text-white">
               <Image src={Img12} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
@@ -177,7 +177,7 @@ function Portfolio() {
               <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/EMS"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="flip-card">
           <div className="flip-card-inner">
@@ -220,7 +220,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div class="flip-card">
+        {/* <div class="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front bg-dark text-white">
               <Image src={Img3} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
@@ -238,7 +238,7 @@ function Portfolio() {
               <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/CodeRefractor"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="flip-card">
           <div className="flip-card-inner">
@@ -260,7 +260,7 @@ function Portfolio() {
           </div>
         </div>
         
-        <div class="flip-card">
+        {/* <div class="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front bg-dark text-white">
               <Image src={Img6} alt="Avatar" style={{ width: "400px", height: "400px", marginTop: "40px" }} fluid/>
@@ -278,7 +278,7 @@ function Portfolio() {
               <a rel="alternate, noreferrer" target="_blank" href="https://github.com/dspark8916/Guessing-Game"><FontAwesomeIcon icon={faGithub} size="5x" color="white"/></a>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* </Col> */}
       </Row>
       {/* </Container> */}
